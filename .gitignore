@@ -1,0 +1,7 @@
+/polisticks/target/
+
+/polisticks/.DS_Store
+/polisticks/Thumbs.db
+
+core
+/polisticks/*.log
