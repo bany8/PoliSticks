@@ -1,0 +1,12 @@
+1. mamy 3 auta 
+    a. bmw
+    b. izera (popsuty)
+    c. skoda
+
+2. startup
+    a. bmw i skoda są sprawne
+    b. izera wymaga naprawy
+
+3. update
+    a. wypisanie sprawnych auto
+    b. proces naprawy zepsutych aut
