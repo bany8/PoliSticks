@@ -47,8 +47,5 @@ impl Plugin for HelloPlugin {
         app.add_systems(Startup, add_people);
         app.add_systems(Update, (update_people, greet_people).chain());
     }
+    
 }
-
-
-
-
