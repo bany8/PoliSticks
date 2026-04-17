@@ -11,13 +11,18 @@ fn main() {
 struct Car;
 
 #[derive(Component)]
-struct Condition(bool);
+struct Name(String);
+
+#[derive(Component)]
+struct Functional(bool);
 
 #[derive(Component)]
 struct Condition(String);
 
 fn add_cars(mut commands: Commands) {
-    commands.spawn((Car, Condition));
+    commands.spawn((Car, Name("BMW".to_string()), Functional(True)));
+    commands.spawn((Car, Name("Izera".to_string()), Functional(False)));
+    commands.spawn((Car, Name("Skoda".to_string()), Functional(True)));
 }
 
 pub struct Cars;
